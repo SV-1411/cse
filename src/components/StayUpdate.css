@@ -1,0 +1,83 @@
+.contact-container {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    padding: 50px;
+    flex-direction: column;
+  }
+  
+  .contact-content {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #f4a261;
+    margin-bottom: 20px;
+  }
+  form {
+    display: flex; /* Flexbox container */
+    flex-direction: row; /* Children (inputs and buttons) will be in a row */
+    gap: 20px; /* Adds space between the fields */
+    justify-content: space-between; /* Ensures fields are spaced out evenly */
+    flex-wrap: wrap;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #f4a261;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  button {
+    background-color: #f4a261;
+    color: #000;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e07b3b;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    color: #f4a261;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #e07b3b;
+  }
+  
