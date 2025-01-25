@@ -6,19 +6,18 @@ const Hero = () => (
     <div
       className="hero"
       style={{
-        padding: "250px 200px",
+        padding: "200px 20px",
         textAlign: "center",
         position: "relative",
         backgroundAttachment: "fixed",
         color: "#fff",
         fontFamily: "Poppins",
-        fontSize: "3rem",
+        marginTop: "-50px",
       }}
     >
       {/* Background Image */}
       <div
         style={{
-          //backgroundImage: "url('/assets/paper.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           position: "absolute",
@@ -31,33 +30,13 @@ const Hero = () => (
         }}
       ></div>
 
-      {/* Background Video 
-      <video
-        className="video-bg"
-        autoPlay
-        loop
-        muted
-        playsInline
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          zIndex: -2,
-        }}
-      >
-        <source src="/assets/mars.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-*/}
       {/* Logo */}
       <img
         src="/assets/ieee1.png"
         alt="IEEE CS Logo"
         style={{
-          width: "500px",
+          width: "80%",
+          maxWidth: "500px",
           height: "auto",
           margin: "0 auto 40px",
           display: "block",
@@ -68,7 +47,7 @@ const Hero = () => (
       {/* Heading */}
       <h1
         style={{
-          fontSize: "4rem",
+          fontSize: "2.5rem",
           fontWeight: "bold",
           color: "#ffffff",
           margin: "40px 0 20px",
@@ -88,9 +67,11 @@ const Hero = () => (
       {/* Subheading */}
       <p
         style={{
-          fontSize: "1.2rem",
+          fontSize: "1rem",
           color: "#bbbbbb",
-          margin: "20px 0 40px",
+          margin: "20px auto 40px",
+          maxWidth: "900px",
+          lineHeight: "1.5",
         }}
       >
         We strive to be the leading provider of technical information, community
@@ -98,6 +79,42 @@ const Hero = () => (
         technology communities. We are IEEE Computer Society.
       </p>
     </div>
+
+    <style jsx>{`
+      .hero {
+        padding: 200px 50px;
+      }
+
+      @media (max-width: 768px) {
+        .hero {
+          padding: 150px 20px;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+          max-width: 500px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .hero {
+          padding: 100px 10px;
+        }
+
+        h1 {
+          font-size: 1.8rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+          max-width: 400px;
+        }
+      }
+    `}</style>
   </>
 );
 
