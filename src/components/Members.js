@@ -10,8 +10,8 @@ const teamMembers = [
     image: "/assets/Shivansh Verma..jpg", // Replace with your image path
   },
   {
-    name: "uhmmmm",
-    role: "Web Designer",
+    name: "Shreyash Bahe",
+    role: "Web Developer",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam debitis eligendi excepturi facere laudantium nulla sint sit ut voluptatibus.",
     image: "images/img-2.jpg", // Replace with your image path

@@ -36,7 +36,7 @@ const Footer = () => {
         <div style={{ flex: "1", minWidth: "200px", textAlign: "left" }}>
           <h4 style={{ fontWeight: "bold", marginBottom: "10px" }}>Contact Us</h4>
           <p>+91 96236 88451 - Shivansh Verma</p>
-          <p>+91 96236 88451 - Shivansh Verma</p>
+          <p>+91 70585 68031 - Shreyash Bahe</p>
         </div>
 
         {/* Links Section */}
